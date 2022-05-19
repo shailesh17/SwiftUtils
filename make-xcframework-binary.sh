@@ -9,8 +9,8 @@ if [[ $1 == "Release" ]]; then
     CONFIGURATION="Release"
 fi
 
-XCPROJECT_PATH="./SwiftUtilsXCFramework/SwiftUtilsXCFramework.xcodeproj"
-SCHEME_NAME="SwiftUtilsXCFramework"
+XCPROJECT_PATH="./SwiftUtilsXCFramework/SwiftUtils.xcodeproj"
+SCHEME_NAME="SwiftUtils"
 
 BUILD_DIR="./.build"
 DIST_DIR="./dist"
